@@ -1,0 +1,20 @@
+.robot-avatar {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.robot-avatar img {
+  width: 100px;
+  height: auto;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Animacion i thjeshtë që roboti “noton” pak lart e poshtë */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
